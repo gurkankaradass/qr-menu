@@ -1,0 +1,62 @@
+body{
+    background-color: #180229;
+    color: aliceblue;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+#logo{
+    height: 150px;
+}
+
+.card{
+    height: 150px;
+    border-width: 1px;
+    border-color: black;
+    color: aliceblue;
+    font-family: fantasy;
+    text-align: center;
+    justify-content: end;
+    text-shadow: 5px 5px 5px #180229;
+}
+
+a{
+    text-decoration: none;
+}
+
+#sicak{
+    background-image: url("/photos/sicakguncel.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#soguk{
+    background-image: url("/photos/sogukicecek.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pasta{
+    background-image: url("/photos/pastakapak.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#yiyecek{
+    background-image: url("/photos/yemek.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#cerez{
+    background-image: url("/photos/cerezs.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
